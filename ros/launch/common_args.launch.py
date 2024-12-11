@@ -7,6 +7,7 @@ def generate_launch_description():
         [
             DeclareLaunchArgument(
                 "lidar_topic",
+                # default_value="/livox/lidar",
                 description="",
             ),
             DeclareLaunchArgument(
